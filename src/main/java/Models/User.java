@@ -16,6 +16,6 @@ public class User extends BaseModel{
     //user: booking
     //1 : M
     //1 : 1
-    @OneToMany
+//    @OneToMany
     private Booking bookingHistory;
 }
